@@ -1,27 +1,28 @@
-UnityPool_PoolManager¡ª¡ª¶ÔÏó³Ø¹ÜÀí
-¡¾»ùÓÚPoolManager²å¼ş¡¿
-1¡¢Í¼½â
+UnityPool_PoolManagerâ€”â€”å¯¹è±¡æ± ç®¡ç†
+ã€åŸºäºPoolManageræ’ä»¶ã€‘
+
+1ã€å›¾è§£
 
 ![image](https://github.com/KingSun5/UnityPool_PoolManager/blob/master/Images/PoolMgr.png)
 
-2¡¢ÓÃ·¨
+2ã€ç”¨æ³•
 
-		//ÊµÀı»¯
+		//å®ä¾‹åŒ–
 		PoolMgr poolMgr = new PoolMgr();
-		//Ö±½Ó»ñÈ¡ÊµÀı
+		//ç›´æ¥è·å–å®ä¾‹
 		poolMgr.Spawn(prefab);
-		//»ñÈ¡ÊµÀı²¢ÉèÖÃ¸¸ÎïÌå
+		//è·å–å®ä¾‹å¹¶è®¾ç½®çˆ¶ç‰©ä½“
 		poolMgr.Spawn(prefab,parent);
-		//»ñÈ¡ÊµÀı²¢ÉèÖÃÎ»ÖÃĞı×ª
+		//è·å–å®ä¾‹å¹¶è®¾ç½®ä½ç½®æ—‹è½¬
 		poolMgr.Spawn(prefab,pos,rot);
-		//»ñÈ¡ÊµÀı²¢ÉèÖÃÎ»ÖÃĞı×ª£¬¸¸¼¶
+		//è·å–å®ä¾‹å¹¶è®¾ç½®ä½ç½®æ—‹è½¬ï¼Œçˆ¶çº§
 		poolMgr.Spawn(prefab,pos,rot,parent);
 		
-		//ÊÍ·ÅÎïÌå
+		//é‡Šæ”¾ç‰©ä½“
 		poolMgr.Despawn(prefab);
-		//ÊÍ·ÅÎïÌåµ½parentÏÂ
+		//é‡Šæ”¾ç‰©ä½“åˆ°parentä¸‹
 		poolMgr.Despawn(prefab,parent);
-		//ÊÍ·Å³Ø×ÓÄÚËùÓĞ»îÔ¾ÎïÌå
+		//é‡Šæ”¾æ± å­å†…æ‰€æœ‰æ´»è·ƒç‰©ä½“
 		poolMgr.DespawnAll();
 
 
