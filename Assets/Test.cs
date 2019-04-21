@@ -21,8 +21,7 @@ public class Test : MonoBehaviour
 	private PoolMgr _poolMgr = new PoolMgr();
 	
 	private void OnGUI()
-	{
-
+	{	
 		if (GUI.Button(new Rect(0,0,100,100),"生成Cube"))
 		{
 			_posCube += 0.5f;

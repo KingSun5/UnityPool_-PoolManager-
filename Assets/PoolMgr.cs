@@ -7,7 +7,7 @@ namespace Scenes
 {
 	/// <summary>
 	/// time:2019/4/20 15:53
-	/// author:sUN
+	/// author:Sun
 	/// des:对象池管理——基于PoolManager插件
 	/// </summary>
 	public class PoolMgr

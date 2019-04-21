@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 1818810969}
   - component: {fileID: 1818810968}
   - component: {fileID: 1818810971}
+  - component: {fileID: 1818810972}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -262,6 +263,39 @@ MonoBehaviour:
   CubeFather: {fileID: 865600235}
   Sphere: {fileID: 4067554120924372, guid: 38204480dd9417f45bdac4d529340ef6, type: 2}
   SPhereFather: {fileID: 794256360}
+--- !u!114 &1818810972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1818810967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59dfbc0f4f3a98b4ebf4ad40fc3f43aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolName: SunPool
+  matchPoolScale: 0
+  matchPoolLayer: 0
+  dontReparent: 0
+  _dontDestroyOnLoad: 0
+  logMessages: 0
+  _perPrefabPoolOptions:
+  - prefab: {fileID: 4377015245277472, guid: 1592883c45fa21c4eba281ca14a9c886, type: 2}
+    preloadAmount: 1
+    preloadTime: 1
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 1
+    limitAmount: 100
+    limitFIFO: 1
+    cullDespawned: 1
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 1
+    spawnPool: {fileID: 0}
+  maxParticleDespawnTime: 300
 --- !u!1 &2010276175
 GameObject:
   m_ObjectHideFlags: 0
